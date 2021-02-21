@@ -1,0 +1,7 @@
+version : "3"
+services:
+  springapp :
+    build: .
+    container_name: springapp
+    ports:
+      - "8060:8080"
